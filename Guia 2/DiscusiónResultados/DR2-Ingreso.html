@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Dólares a Euros</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0"/>
+        <!--Definiendo una hoja de estilo-->
+        <link rel="stylesheet" media="screen" href="css/conversor.css">
+        <script src="js/form.js"></script>
+    </head>
+    <body>
+        <section class="container">
+            <section class="one">
+                <div class="logo">
+                    <img src="css/exchange.png" width="150px" height="150px">
+                </div>
+                <h2 class="heading">Conversor de Dólares a Euros</h2>
+                <p>Ingrese la cantidad en dólares:</p>
+                <form action="DR2-Resultado.php" method="POST">
+                    <input type='text' placeholder="$" id="cantidad" name="cantidad"><br/>
+                    <input type="submit" name="submit" id="convertir" value="Convertir" class="submit">
+                  </form>
+            </section>
+            
+        </section>
+        
+    </body>
+</html>

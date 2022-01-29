@@ -1,0 +1,30 @@
+html{
+	background-color: lightblue;
+}
+
+div{
+	font-size: 20px;
+}
+
+h2{
+	text-decoration: underline;
+	color: white;
+}
+
+#parr1{
+	font-weight: bold;
+	color: navy;
+}
+
+#parr2{
+	text-align: justify;
+	text-transform: uppercase;
+}
+
+#parr3{
+	font-size: 12px;
+}
+
+span{
+	font-style: italic;
+}
